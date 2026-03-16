@@ -1,0 +1,103 @@
+/* Basic reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container for the game */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Game area with input and buttons */
+.game-area {
+    margin-bottom: 20px;
+}
+
+#guessInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#guessBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#guessBtn:hover {
+    background-color: #45a049;
+}
+
+#newGameBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+#newGameBtn:hover {
+    background-color: #da190b;
+}
+
+/* Message display */
+.message {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    min-height: 24px;
+}
+
+/* Stats section */
+.stats {
+    margin-top: 20px;
+}
+
+.stats p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+#history {
+    font-weight: normal;
+}
